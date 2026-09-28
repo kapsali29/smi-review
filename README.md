@@ -74,9 +74,9 @@ Interactive documentation for all routes is available at [http://localhost:8000/
 
 0. `Follow Steps in Configuration Section`
 
-1. `Install requirements`
+1. `Install Project Depedencies`
 ```bash
-./install_requirements.sh
+./install_deps.sh
 ```
 
 2. `Generate SMI Dataset`
@@ -89,9 +89,9 @@ uv run src/smi_index_review/main.py
 uv run uvicorn smi_index_review.api.index:app --host 0.0.0.0 --port 8000 --reload 
 ```
 
-4. `Code Formatting`
+4. `Linting`
 ```bash
-./format.sh
+./lint.sh
 ```
 
 5. `Run Tests`
