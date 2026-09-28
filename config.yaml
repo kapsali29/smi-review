@@ -1,0 +1,19 @@
+review_date: "2026-09-21"
+cutoff_date: "2026-09-10"
+output_path: output/smi_review.json
+spi_universe:
+  file_path: data/spi_universe.csv
+  date_column: date
+  id_column: id
+  separator: ";"
+sec_data:
+  file_path: data/sec_data.csv
+  id_column: id
+  date_column: date
+  price_column: price
+  free_float_column: free_float
+  shares_column: shares
+  separator: ";"
+comp:
+  file_path: data/composition.csv
+  id_column: id
